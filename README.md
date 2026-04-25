@@ -7,5 +7,5 @@ Contact Repo owner Joe at jvanquak@gmail.com for questions/comments.
 ## Basic Standards
 - Use python 3.14 or better.  
 - Keep the .package list updated with your packages.  If the package is part of the standard distribution of python, no need to include it.
-- All code need to incluide argparser with a help and version option.
+- All code need to incluide argparser with a help option.
 

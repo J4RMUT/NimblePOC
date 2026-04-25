@@ -1,1 +1,18 @@
-
+# DEFAULT WORKFLOW FOR AGENTIC AGENT
+name: Agentic_setup
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: 
+jobs:
+  Inital_job:
+    name: Initial
+    runs-on: ubuntu-latest
+    steps:
+      -  run: | 
+          echo "Hello Everyone from ${{ github.actor }} " 
+          echo "Current branch is ${{ github.ref }}" 
+        
+    
+  
